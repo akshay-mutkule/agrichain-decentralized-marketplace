@@ -1,6 +1,6 @@
-# New AgroChain
+# New AgriChain
 
-This project is a React frontend for the AgroChain auction demo.
+This project is a React frontend for the AgriChain auction demo.
 
 ## Run locally
 
