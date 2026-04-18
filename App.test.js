@@ -1,12 +1,23 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders main navigation sections', () => {
+test('renders the clean homepage by default', () => {
   render(<App />);
 
-  expect(screen.getByRole('link', { name: /home/i })).toBeInTheDocument();
-  expect(screen.getByRole('link', { name: /marketplace/i })).toBeInTheDocument();
-  expect(screen.getByRole('heading', { name: /digital modules for modern agricultural trade/i })).toBeInTheDocument();
-  expect(screen.getByRole('heading', { name: /listing preview for buyers and suppliers/i })).toBeInTheDocument();
-  expect(screen.getByRole('heading', { name: /create a new account/i })).toBeInTheDocument();
+  expect(
+    screen.getByRole('heading', {
+      name: /a cleaner front door for agricultural trade operations/i,
+    })
+  ).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /about/i })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /login/i })).toBeInTheDocument();
+});
+
+test('navigates to the login page from the header', () => {
+  render(<App />);
+
+  fireEvent.click(screen.getAllByRole('button', { name: /^login$/i })[0]);
+
+  expect(screen.getByRole('heading', { name: /secure access for platform participants/i })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: /sign up/i })).toBeInTheDocument();
 });
