@@ -1,0 +1,154 @@
+{
+  "heroTabs": [
+    "Procure to Pay Automation",
+    "Inventory Tracking",
+    "Site Management",
+    "Integrated Logistics Suite",
+    "Containers From Farm to Shop"
+  ],
+  "partners": [
+    "Grant Hanson",
+    "Allied Pinnacle",
+    "Lansdell",
+    "Lawson Grains"
+  ],
+  "enterpriseLogos": [
+    "Allied Pinnacle",
+    "AgConnex",
+    "PepsiCo",
+    "Australian Milling",
+    "Viterra",
+    "Cargill"
+  ],
+  "modules": [
+    {
+      "id": "contracts",
+      "label": "Contracts",
+      "headline": "Collaborative Contract, Order, and Invoice Management",
+      "description": "Manage contracts, orders, movements, and invoices from one coordinated workflow with live tonnage tracking and approvals visible to every team.",
+      "highlights": [
+        "Digital contracts with approval trails",
+        "Live delivery and invoice visibility",
+        "Shared workflows across growers, buyers, and finance"
+      ],
+      "imageKey": "hero"
+    },
+    {
+      "id": "time-slotting",
+      "label": "Time Slotting",
+      "headline": "Real-Time Sync and Notifications",
+      "description": "Keep inbound and outbound freight aligned with operational slotting, live alerts, and team-wide updates.",
+      "highlights": [
+        "Highlight changes in freight views",
+        "Auto-sync across devices and teams",
+        "Broadcast site-wide operational messages"
+      ],
+      "imageKey": "modules"
+    },
+    {
+      "id": "orders",
+      "label": "Orders",
+      "headline": "Track Every Order Through One System",
+      "description": "Create, confirm, and monitor agricultural orders without splitting updates across spreadsheets and email threads.",
+      "highlights": [
+        "Shared order status tracking",
+        "Searchable order history",
+        "Exception management for delayed loads"
+      ],
+      "imageKey": "modules"
+    },
+    {
+      "id": "movements",
+      "label": "Movements",
+      "headline": "See Deliveries and Stock Movements Clearly",
+      "description": "Monitor movements from site to site with a clear operational picture of what has arrived, departed, or changed.",
+      "highlights": [
+        "Movement milestones in one timeline",
+        "Delivery status visibility",
+        "Reduced paper-based handoffs"
+      ],
+      "imageKey": "logistics"
+    },
+    {
+      "id": "freight-scheduling",
+      "label": "Freight Scheduling",
+      "headline": "Total Control Over Trucks, Orders, and Movements",
+      "description": "Coordinate trucks, loads, and schedules with less friction between intake, dispatch, and receiving teams.",
+      "highlights": [
+        "Manage trucks and loads",
+        "Reduce gate congestion",
+        "Track deliveries from intake to dispatch"
+      ],
+      "imageKey": "logistics"
+    },
+    {
+      "id": "chain-of-responsibility",
+      "label": "Chain of Responsibility",
+      "headline": "Compliance That Stays Attached to the Load",
+      "description": "Store and surface compliance records, responsibilities, and exceptions alongside each movement.",
+      "highlights": [
+        "Shared compliance records",
+        "Visibility into load responsibilities",
+        "Searchable audit support"
+      ],
+      "imageKey": "modules"
+    },
+    {
+      "id": "stocks-and-transfers",
+      "label": "Stocks and Transfers",
+      "headline": "Inventory Accuracy Across Every Site",
+      "description": "Track stock positions, transfer requests, and reconciliation details across storage and processing locations.",
+      "highlights": [
+        "Cross-site transfer visibility",
+        "Storage-level stock reporting",
+        "Faster reconciliation"
+      ],
+      "imageKey": "spotlight"
+    },
+    {
+      "id": "container-packing",
+      "label": "Container Packing",
+      "headline": "Pack, Track, and Invoice Containers Effortlessly",
+      "description": "Handle export packing workflows with searchable shipment records and real-time packing milestones.",
+      "highlights": [
+        "Pack and track containers",
+        "Keep shipping records searchable",
+        "Surface live packing progress"
+      ],
+      "imageKey": "modules"
+    },
+    {
+      "id": "cashboards-prices",
+      "label": "Cashboards and Prices",
+      "headline": "Price Visibility for Commercial Decisions",
+      "description": "Centralize price views and commercial updates to support trading and procurement decisions with less delay.",
+      "highlights": [
+        "Consolidated pricing views",
+        "Market updates in context",
+        "Commercial decision support"
+      ],
+      "imageKey": "blog"
+    }
+  ],
+  "articles": [
+    {
+      "id": "seed-management-system",
+      "title": "Seed Management System: Software, Storage, and Best Practices for Modern Agriculture",
+      "excerpt": "How agriculture teams manage seed storage, software workflows, and traceable records without operational drift.",
+      "imageKey": "blog"
+    },
+    {
+      "id": "chain-of-custody-system",
+      "title": "Chain of Custody System: The Complete Guide to Process, Procedure, and Software",
+      "excerpt": "A practical walkthrough of chain-of-custody records, responsibilities, and supporting software workflows.",
+      "imageKey": "modules"
+    },
+    {
+      "id": "seed-inventory-system",
+      "title": "Seed Inventory System: How Agriculture Managers Keep Stock Accuracy at Scale",
+      "excerpt": "What operational controls and system design choices matter when stock accuracy needs to hold across multiple sites.",
+      "imageKey": "logistics"
+    }
+  ],
+  "testimonial": "After integrating AgriChain, our delivery scheduling became seamless, and the efficiency of our mill operations improved dramatically. The real-time updates and comprehensive reporting have been invaluable."
+}

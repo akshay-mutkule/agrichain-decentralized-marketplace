@@ -1,0 +1,16 @@
+[
+  {
+    "id": "ops-admin",
+    "name": "Operations Admin",
+    "email": "admin@agrichain.demo",
+    "password": "Demo@123",
+    "role": "Platform Operations"
+  },
+  {
+    "id": "supply-manager",
+    "name": "Supply Manager",
+    "email": "manager@agrichain.demo",
+    "password": "Supply@123",
+    "role": "Supply Chain Manager"
+  }
+]

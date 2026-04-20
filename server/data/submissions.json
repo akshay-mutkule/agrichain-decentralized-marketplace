@@ -1,0 +1,21 @@
+{
+  "demoRequests": [
+    {
+      "id": "demo-1776674553941",
+      "submittedAt": "2026-04-20T08:42:33.941Z",
+      "name": "Codex Tester",
+      "email": "tester@example.com",
+      "company": "Agri QA",
+      "message": "Please schedule a walkthrough."
+    }
+  ],
+  "contactMessages": [],
+  "loginEvents": [
+    {
+      "id": "login-1776674553939",
+      "submittedAt": "2026-04-20T08:42:33.939Z",
+      "email": "admin@agrichain.demo",
+      "role": "Platform Operations"
+    }
+  ]
+}
